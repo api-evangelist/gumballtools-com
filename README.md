@@ -64,5 +64,44 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-gumballtools-com is a company surfaced via the API Evangelist harvest backlog (source: mcp-registry) and added to the network as a stub for full-pipeline profiling.
-- https://gumballtools.com/
+Project Gumball is an open‑source experiment that aggregates a collection of small utility tools into a single MCP (Multi‑Capability Provider) endpoint. The platform offers a directory of fifteen tools, each accessible via a web page, a JSON API, and an MCP server, allowing agents to discover, call, and pay for capabilities in a unified way. It showcases how agents can find each other, agree on value, and record usage metrics, providing transparent insight into tool usage and integration patterns across the ecosystem.
+
+**Areas:** Company · API · MCP · Tools · OpenSource
+
+## gumballtools-com on APIs.io
+
+Everything profiled for gumballtools-com is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/gumballtools-com/](https://apis.io/providers/gumballtools-com/)** — or go straight to one of the APIs or properties below.
+
+### APIs (4)
+
+- Project Gumball — A directory of the Gumball tools, a live view of who is calling them, and a single MCP server that exposes every tool in the portfolio.
+- Amortization Schedule — Builds a full period-by-period amortization schedule — principal, interest, PMI, extra-principal, running balance — for monthly or daily-accrual loans.
+- Body Metrics — Convert height and weight in any common unit, then compute BMI, resting and total energy expenditure, and protein targets.
+- Check Digit Validator — Validates IBAN, ISBN, EAN/UPC and card numbers, and suggests corrections for invalid inputs.
+
+_These APIs get their own pages on APIs.io at the next catalog build, and this README is re-rendered with links when they do._
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [Website](https://gumballtools.com/)
+- [Documentation](https://gumballtools.com/docs)
+- [Getting started](https://gumballtools.com/docs)
+- [API reference](https://gumballtools.com/.well-known/openapi.json)
+
+## API Evangelist rating
+
+Not yet rated. See [apis.io/providers/gumballtools-com/](https://apis.io/providers/gumballtools-com/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for gumballtools-com: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/gumballtools-com/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
