@@ -74,12 +74,51 @@ Everything profiled for gumballtools-com is published on APIs.io rather than in 
 
 ### APIs (4)
 
-- Project Gumball — A directory of the Gumball tools, a live view of who is calling them, and a single MCP server that exposes every tool in the portfolio.
-- Amortization Schedule — Builds a full period-by-period amortization schedule — principal, interest, PMI, extra-principal, running balance — for monthly or daily-accrual loans.
-- Body Metrics — Convert height and weight in any common unit, then compute BMI, resting and total energy expenditure, and protein targets.
-- Check Digit Validator — Validates IBAN, ISBN, EAN/UPC and card numbers, and suggests corrections for invalid inputs.
+- [Project Gumball](https://apis.io/apis/gumballtools-com/project-gumball/) — A directory of the Gumball tools, a live view of who is calling them, and a single MCP server that exposes every tool in the portfolio.
+- [Amortization Schedule](https://apis.io/apis/gumballtools-com/amortization-schedule/) — Builds a full period-by-period amortization schedule — principal, interest, PMI, extra-principal, running balance — for monthly or daily-accrual loans.
+- [Body Metrics](https://apis.io/apis/gumballtools-com/body-metrics/) — Convert height and weight in any common unit, then compute BMI, resting and total energy expenditure, and protein targets.
+- [Check Digit Validator](https://apis.io/apis/gumballtools-com/check-digit-validator/) — Validates IBAN, ISBN, EAN/UPC and card numbers, and suggests corrections for invalid inputs.
 
-_These APIs get their own pages on APIs.io at the next catalog build, and this README is re-rendered with links when they do._
+### Published properties
+
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
+
+#### Agentic access (1)
+
+Which operations an agent can call, which act, and which need a human in the loop.
+
+- [Gumballtools Com Agentic Access](https://apis.io/agentic-access/gumballtools-com/gumballtools-com-agentic-access/)
+
+#### Governance rules (1)
+
+Spectral rulesets for the provider's contracts.
+
+- [gumballtools-com API Rules](https://apis.io/rules/gumballtools-com/gumballtools-com-rules/)
+
+#### Security (2)
+
+Authentication, trust centre, and vulnerability disclosure.
+
+- [Gumballtools Com Authentication](https://apis.io/security/gumballtools-com/gumballtools-com-authentication/)
+- [Gumballtools Com Domain Security](https://apis.io/security/gumballtools-com/gumballtools-com-domain-security/)
+
+#### OAuth scopes (1)
+
+The permissions the API asks for.
+
+- [Gumballtools Com Scopes](https://apis.io/scopes/gumballtools-com/gumballtools-com-scopes/)
+
+#### Plans and pricing (1)
+
+Published plans, tiers and prices.
+
+- [Gumballtools Com Plans Pricing](https://apis.io/plans/gumballtools-com/gumballtools-com-plans-pricing/)
+
+#### Rate limits (1)
+
+Published request limits.
+
+- [Gumballtools Com Rate Limits](https://apis.io/rate-limits/gumballtools-com/gumballtools-com-rate-limits/)
 
 ## Where to find this API
 
@@ -92,7 +131,46 @@ Links to the company's own pages. This repository publishes no copy of their spe
 
 ## API Evangelist rating
 
-Not yet rated. See [apis.io/providers/gumballtools-com/](https://apis.io/providers/gumballtools-com/).
+**Kin Score 38.9** — thin · rubric 0.25.0 · scored 2026-10-29
+
+| Facet | Score |
+|---|---|
+| Discoverability | 70.0 |
+| Contract quality | 24.0 |
+| Contract governance | 65.5 |
+| Operational transparency | 34.7 |
+| Developer ergonomics | 44.5 |
+| Access clarity | 18.9 |
+
+**Agent readiness 31.2** — agent-ready
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | yes |
+| Agentic Access | unknown |
+| Reversibility Documented | — |
+| MCP Server | documented (partial credit) |
+| Auth Clarity | — |
+| Idempotency | — |
+| Error Semantics | documented (partial credit) |
+| OpenAPI Examples | — |
+| Rate Limit Signal | documented (partial credit) |
+| Event Surface Described | — |
+| Agent Skills | unknown |
+| Well Known Catalog | — |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | — |
+| Protected Resource Metadata | — |
+| Dynamic Client Registration | — |
+| Agentic Commerce | — |
+| Pagination Ratio | na |
+| Operation Distinctiveness | na |
+
+**Regulatory alignment 20.6** — Horizontal (data, software, accessibility, platform)
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/gumballtools-com/](https://apis.io/providers/gumballtools-com/).
 
 ## How this profile is made
 
